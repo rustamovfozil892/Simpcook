@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .form-1 h3 {
+            font-family: 'Poppins-SemiBold';
+            color: lightgray;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="./img/chef.png">
+    <title>Simpcook</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="#" class="hn__logo">
+                    Simp<span>cook</span>
+                </a>
+                <ul class="hn__list">
+                    <li>
+                        <a href="#" class="hn__list-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hn__list-link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hn__list-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hn__list-link">About</a>
+                    </li>
+                </ul>
+                <div class="modal">
+                    <button class="modal-btn">Sign in <span class="icon"></span></button>
+                </div>
+                <div class="modal-container">
+                    <div class="mc__cards">
+                        <form class="mcc__form">
+                            <h1>Autorization Form</h1>
+                            <span class="mcc__form-exit">&cross;</span>
+                            <input type="text" class="mcc__form__inp" placeholder="Name:*">
+                            <input type="text" class="mcc__form__inp" placeholder="Surname:*">
+                            <input type="text" class="mcc__form__inp" placeholder="Email:*">
+                            <h1>Your Date of born</h1>
+                            <div class="mcc__form-item">
+                                <label>
+                                    <span>Month</span>
+                                    <select class="select">
+                                        <option>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                    </select>
+                                </label>
+                                <label>
+                                    <span>Number</span>
+                                    <select class="select">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                        <option>21</option>
+                                        <option>22</option>
+                                        <option>23</option>
+                                        <option>24</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>28</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                        <option>31</option>
+                                    </select>
+                                </label>
+                                <label>
+                                    <span>Year</span>
+                                    <input class="mcc__form__inp" type="number" min="1970" max="2022" step="1">
+                                </label>
+                            </div>
+                            <button class="mcc__form-btn">Log in</button>
+                            <a href="#">Sign in</a>
+                        </form>
+                    </div>
+                </div>
+                <script src="script.js"></script>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section class="first__section">
+            <div class="container">
+                <div class="fs__block">
+                    <div class="fs__block--left">
+                        <h1 class="fs__title">Professional cooking with great chef</h1>
+                        <p class="fs__subtitle">Simcook website that provides complete and delicious recipes for
+                            all
+                            foods for all who like to cook and served simply.</p>
+                        <div class="fsl__box">
+                            <a href="#">
+                                <img src="./img/facebook.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/instagram.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/twitter.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fs__block--right">
+                        <img src="./img/cook.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="search-section">
+            <div class="container">
+                <form class="ss__form">
+                    <label class="ss__form-label">
+                        <p>Ingredients</p>
+                        <select class="f__select" style="font-size: 24px;">
+                            <option>Beef</option>
+                            <option>Mutton</option>
+                            <option>Horseflesh</option>
+                            <option>Chicken</option>
+                        </select>
+                    </label>
+                    <label class="ss__form-label">
+                        <p>Method</p>
+                        <select style="font-size: 24px;">
+                            <option>Roast</option>
+                            <option>Raw</option>
+                            <option>Boiled</option>
+                            <option>Smoked</option>
+                        </select>
+                    </label>
+                    <label class="ss__form-label">
+                        <p>Many Dishes</p>
+                        <select style="font-size: 24px;">
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </label>
+                    <button class="btn">Search</button>
+                </form>
+            </div>
+        </section>
+        <section class="points__section">
+            <div class="container">
+                <div class="ps__block">
+                    <div class="ps__block--top">
+                        <div class="ps__block--top-item">
+                            <a class="pbt__link" href="#">Food Recipe</a>
+                            <h2 class="pbt__text">With delicious food</h2>
+                        </div>
+                        <div class="ps__block--top-item-1">
+                            <a class="pbt__link-1" href="#">See More</a>
+                        </div>
+                    </div>
+                    <div class="ps__block--center">
+                        <div class="pbc__left">
+                            <img class="pbc__left--image" src="./img/food-1.png" alt="">
+                            <div class="pbb__left">
+                                <h2 class="pbb__left-title">Beef Green</h2>
+                                <div class="plt__star">
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                </div>
+                                <span>4.8/5</span>
+                            </div>
+                            <a href="#" class="pbc__left--icon">
+                                <img src="./img/bookmark.png" alt="">
+                            </a>
+                        </div>
+                        <div class="pbc__right">
+                            <img class="pbc__right--image" src="./img/food-2.png" alt="">
+                            <div class="pbb__right">
+                                <h2 class="pbb__left-title">Beef Green</h2>
+                                <div class="plt__star">
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/star.png" alt="">
+                                    </a>
+                                </div>
+                                <span>4.8/5</span>
+                            </div>
+                            <a href="#" class="pbc__right--icon">
+                                <img src="./img/bookmark.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chef__section">
+            <div class="container">
+                <div class="cs__block">
+                    <div class="cs__block--left">
+                        <img src="./img/chef.png" alt="">
+                    </div>
+                    <div class="cs__block--right">
+                        <a href="#">About Us</a>
+                        <h1 class="cbr__title">With Professional chef</h1>
+                        <p class="cbr__subtitle">Dishes made directly by professional chefs with complete recipes as
+                            well as relevant ingredients and tools commonly used for everyday cooking.
+                        </p>
+                        <div class="cbr__item">
+                            <div class="cbr__item-1">
+                                <a class="cbr__tick" href="#">
+                                    <img src="./img/pencil.png" alt="">
+                                </a>
+                                <div>
+                                    <h2 class="cbr__title-1">Experienced Chef</h2>
+                                    <p class="cbr__subtitle-1">With a chef with more than 10 years of experience.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="cbr__item-1">
+                                <a href="" class="cbr__tick">
+                                    <img src="./img/ok.png" alt="">
+                                </a>
+                                <div>
+                                    <h2 class="cbr__title-1">Certified</h2>
+                                    <p class="cbr__subtitle-1">Certified cook with more perfect cooking skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wus__section">
+            <div class="container">
+                <div class="wuss__block">
+                    <div class="wuss__block--left">
+                        <a href="#">What Said</a>
+                        <h1>What users say?</h1>
+                        <p>I managed to make this dish deliciously and with the right dose and easily available
+                            ingredients, I thank you very much with this site or application because it is very
+                            helpful
+                            for housewives who cannot cook or the food is not good.</p>
+                        <div class="wussbl__item">
+                            <div class="wussbl__item-div">
+                                <img src="./img/SarahWilson.png" alt="">
+                                <div>
+                                    <h3>SarahWilson</h3>
+                                    <p>Teach Cooking</p>
+                                </div>
+                            </div>
+                            <div class="wussbl__item-div-1">
+                                <p>Rate</p>
+                                <div class="wussbl__star">
+                                    <a href="#">
+                                        <img src="./img/Vector.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/Vector.png" alt="">
+                                    </a>
+                                    <a href="№">
+                                        <img src="./img/Vector.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/Vector.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/Vector.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <span>4.8/5</span>
+                        </div>
+                    </div>
+                    <div class="wuss__block--right">
+                        <img src="./img/food-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="join__section">
+            <div class="container">
+                <div class="js__block">
+                    <div class="js__block--left">
+                        <img src="./img/food-4.png" alt="">
+                    </div>
+                    <div class="js__block--right">
+                        <h1>You want to get lots of recipes</h1>
+                        <p>More recipes and all ingredients will be shown and get support from us for 24 hours.</p>
+                        <div class="jsbr__item">
+                            <img class="jsbr__item-image" src="./img/Group 7.png" alt="">
+                            <h1>24.678K <span>Joined</span></h1>
+                        </div>
+                        <form class="form-1">
+                            <h3>Let's Join With Us <span class="span">&#8594</span></h3>
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <div class="footer__block--left">
+                    <ul class="fbl__list">
+                        <a href="#">
+                            Simp<span>cook</span>
+                        </a>
+                        <h4>Semi street 06, Sumobito, Jombang Indonesian</h4>
+                        <h4>+62 85456729899 hey@simpcook.com</h4>
+                    </ul>
+                </div>
+                <div class="footer__block--right">
+                    <ul class="fbr__list">
+                        <li class="li">About Us</li>
+                        <li>
+                            <a class="fbr__list-link" href="#">Features</a>
+                        </li>
+                        <li>
+                            <a class="fbr__list-link" href="#">Recipe</a>
+                        </li>
+                        <li>
+                            <a class="fbr__list-link" href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a class="fbr__list-link" href="#">Subscribe</a>
+                        </li>
+                        <li>
+                            <a class="fbr__list-link" href="#"></a>
+                        </li>
+                    </ul>
+                    <ul class="fbr__list">
+                        <li class="li">Support</li>
+                        <li>
+                            <a class="fbr__list-link" href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a class="fbr__list-link" href="#">FaQ</a>
+                        </li>
+                        <li>
+                            <a class="fbr__list-link" href="#">Call Center</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form__content">
+                    <h1>Want To Ask?</h1>
+                    <form class="form-2">
+                        <textarea class="f2__textarea"></textarea>
+                        <button>Send Me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
