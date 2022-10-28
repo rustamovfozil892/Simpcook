@@ -1,3 +1,7 @@
+body {
+  right: 0;
+}
+
 h1 {
   font-family: "Poppins-SemiBold";
 }
@@ -89,10 +93,12 @@ h1 {
   display: none;
   justify-content: center;
   align-items: center;
+  left: 0;
 }
 
 .active {
   display: flex;
+  animation: anim 2s ease-out;
 }
 
 .mcc__form {
@@ -192,6 +198,16 @@ h1 {
   background: orange;
   color: #57be6c;
   transition: all 0.9s;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .fs__block--right img {
